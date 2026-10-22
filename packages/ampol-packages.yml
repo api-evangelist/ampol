@@ -1,0 +1,9 @@
+generated: '2026-10-21'
+method: none
+packages: []
+checked:
+- url: https://registry.npmjs.org/ampol
+  status: 404
+- url: https://pypi.org/pypi/ampol/json
+  status: 404
+note: No first-party SDK or client library found; Ampol publishes no developer documentation and web searches for an Ampol API/SDK returned only unrelated results (AMPL, Ampcontrol).

@@ -1,0 +1,18 @@
+name: Ampol MCP server
+type: MCPServer
+generated: '2026-10-21'
+method: none
+source:
+- https://www.ampol.com.au/
+status: none
+description: >-
+  No official Ampol MCP server (remote or local) was found. Pre-flight MCP probes on
+  ampol.com.au, www.ampol.com.au, ampcharge.ampol.com.au, app.ampol.com.au and my.ampol.com.au
+  found nothing (contract_discovery verdict mcp: absent), and a web search for an Ampol MCP server
+  or developer API returned only unrelated vendors. Ampol publishes no OpenAPI contract, so no
+  candidate tool list could be derived either.
+deployment:
+  mode: none
+  auth: unknown
+  verified: searched
+tools: []

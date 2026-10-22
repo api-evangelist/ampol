@@ -1,0 +1,6 @@
+name: Ampol rate limits
+generated: '2026-10-21'
+method: none
+limit_count: 0
+limits: []
+note: No public API documentation exists for Ampol (no developer portal, OpenAPI or docs host found on ampol.com.au or by web search on 2026-10-21), so no rate limits are published.

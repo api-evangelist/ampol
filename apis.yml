@@ -1,23 +1,92 @@
 aid: ampol
+
 name: Ampol
-description: 'Ampol is a company surfaced via the API Evangelist harvest backlog (source: australia-apidays-2026)
-  and added to the network as a stub for full-pipeline profiling.'
+
+description: 'Ampol is an Australian transport fuels and convenience retailer, operating since 1900, that
+  describes itself as Australia''s leader in transport fuels. Its network of service stations supplies
+  petrol and diesel, AmpCharge EV charging, AmpolCard fuel cards and business solutions, wholesale fuel
+  with published terminal gate pricing, Foodary convenience food, everyday rewards and Mobil lubricants.
+  Surfaced via the API Evangelist harvest backlog (source: australia-apidays-2026).'
+
 url: https://raw.githubusercontent.com/api-evangelist/ampol/refs/heads/main/apis.yml
+
+image: https://www.ampol.com.au/stardust/logos/ampol_nav_logo.svg
+
 x-type: company
+
 x-source: harvest:australia-apidays-2026
-x-tier: stub
-x-tier-reason: harvest
+
+x-tier: profiled
+x-tier-reason: enrichment pass 2026-10-21 (modular-v1; was harvest)
+
 specificationVersion: '0.20'
+
 created: '2026-10-21'
+
 modified: '2026-10-21'
+
 tags:
 - Company
-apis: []
+- Energy
+- Fuel
+- Retail
+- EV Charging
+- Fuel Cards
+- Convenience
+- Australia
+
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+
 common:
+- type: Hosts
+  url: hosts/ampol-hosts.yml
+- type: Vendors
+  url: vendors/ampol-vendors.yml
+- type: DomainSecurity
+  url: security/ampol-domain-security.yml
 - type: Website
-  url: https://ampol.com.au/
+  url: https://www.ampol.com.au/
+- type: Support
+  url: https://www.ampol.com.au/support
+- type: Pricing
+  url: https://www.ampol.com.au/business/pricing
+- type: Blog
+  url: https://www.ampol.com.au/about-ampol/news-and-media
+- type: TermsOfService
+  url: https://www.ampol.com.au/terms-of-use
+- type: PrivacyPolicy
+  url: https://www.ampol.com.au/privacy-policy
+
+apis: []
+
+x-coverage:
+  state: covered
+  reason: identity-verified
+  detail: Website, description, tags, image and link pointers verified from www.ampol.com.au (page meta
+    description names Ampol). No developer portal, API docs or GitHub organisation was found linked from
+    the site; github.com/ampol exists but nothing ties it to the company, so it was not recorded.
+  evidence:
+  - url: https://www.ampol.com.au/
+    status: 200
+  - url: https://www.ampol.com.au/support
+    status: 200
+  - url: https://www.ampol.com.au/business/pricing
+    status: 200
+  - url: https://www.ampol.com.au/about-ampol/news-and-media
+    status: 200
+  - url: https://www.ampol.com.au/terms-of-use
+    status: 200
+  - url: https://www.ampol.com.au/privacy-policy
+    status: 200
+  - url: https://www.ampol.com.au/stardust/logos/ampol_nav_logo.svg
+    status: 200
+x-enrichment:
+  date: '2026-10-21'
+  status: enriched
+  artifacts_added: 11
+  pass: modular-v1
+  engine: identity=anthropic,contract=anthropic,surfaces=anthropic,docs=anthropic,regulatory=anthropic

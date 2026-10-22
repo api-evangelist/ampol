@@ -1,0 +1,86 @@
+generated: '2026-10-21'
+method: searched
+probe: true
+source: https://www.ampol.com.au/privacy-policy
+policy_updated: '5 June 2025'
+signals:
+  data_subject_request:
+    url: https://www.ampol.com.au/privacy-policy
+    section: 'HOW CAN YOU ACCESS YOUR PERSONAL INFORMATION?'
+    channel: Ampol's Privacy Compliance Officer, Ampol Limited, 29-33 Bourke Road Alexandria NSW 2015, or the online secure enquiry form
+    rights_named: [access, correction, complaint]
+    escalation: Office of the Australian Information Commissioner
+    evidence:
+    - source: https://www.ampol.com.au/privacy-policy
+      http_status: 200
+      fetched: '2026-10-21'
+      quote: >-
+        If you want to access your personal information held by Ampol, please put your request in writing and
+        clearly identify the personal information to which you seek access.
+    - source: https://www.ampol.com.au/privacy-policy
+      http_status: 200
+      fetched: '2026-10-21'
+      quote: >-
+        Depending on the circumstances and where not prohibited by law from doing so, Ampol reserves the right
+        to charge you a reasonable administrative fee in connection with your request to access personal information.
+    - source: https://www.ampol.com.au/privacy-policy
+      http_status: 200
+      fetched: '2026-10-21'
+      quote: >-
+        If you are not happy with how Ampol has handled your complaint, you may then contact the Office of the
+        Australian Information Commissioner .
+    note: >-
+      Australian Privacy Act-style access/correction/complaint process: written requests go to the Privacy
+      Compliance Officer, and an access fee may be charged. No response time is stated, and no deletion or
+      portability right is named.
+  data_retention:
+    url: https://www.ampol.com.au/privacy-policy
+    section: 'PART II - PROTECTION, ACCESS, CORRECTION AND COMPLAINTS'
+    stated_period: seven years
+    evidence:
+    - source: https://www.ampol.com.au/privacy-policy
+      http_status: 200
+      fetched: '2026-10-21'
+      quote: >-
+        Generally, Ampol will securely destroy or de-identify personal information after a period of seven years
+        following its collection or following an employee's separation from Ampol unless it is required, or may be
+        required, to be kept for a longer period because of the purpose(s) for which it was originally collected.
+    - source: https://www.ampol.com.au/privacy-policy
+      http_status: 200
+      fetched: '2026-10-21'
+      quote: Personal information in Ampol's possession may be retained in archival storage.
+    note: A default retention period of seven years, followed by destruction or de-identification. Ampol can keep data longer when the original purpose requires it.
+  data_residency:
+    url: https://www.ampol.com.au/privacy-policy
+    countries_named: [Singapore, New Zealand, USA, United Kingdom, Philippines, India, European Union]
+    evidence:
+    - source: https://www.ampol.com.au/privacy-policy
+      http_status: 200
+      fetched: '2026-10-21'
+      quote: >-
+        In addition to disclosing your personal information to recipients in Australia, Ampol may disclose it to
+        the following overseas recipients: members of Ampol Group that are not located in Australia (including
+        those members located in Singapore, New Zealand and the USA); other companies or individuals who assist us
+        in providing services or who perform functions on their behalf (such as third party service providers and
+        professional advisers), including those located in the United Kingdom, New Zealand, USA, Singapore,
+        Philippines, India and the European Union;
+    note: >-
+      This is a cross-border disclosure statement, not a residency commitment. Personal information may leave
+      Australia for the named countries. No in-country residency option is offered.
+  subprocessors:
+    url: https://www.ampol.com.au/privacy-policy
+    named_list: false
+    evidence:
+    - source: https://www.ampol.com.au/privacy-policy
+      http_status: 200
+      fetched: '2026-10-21'
+      quote: >-
+        other companies or individuals who assist us in providing services or who perform functions on their behalf
+        (such as third party service providers and professional advisers), including those located in the United
+        Kingdom, New Zealand, USA, Singapore, Philippines, India and the European Union;
+    note: The policy names the categories and countries of its service providers. It does not publish a named subprocessor list.
+checked_without_signal:
+- url: https://www.ampol.com.au/terms-of-use
+  http_status: 200
+  fetched: '2026-10-21'
+  note: Website terms of use were fetched. They make no regulatory-posture statement beyond what is recorded above.

@@ -1,0 +1,12 @@
+name: Ampol pricing
+generated: '2026-10-21'
+method: none
+source: https://www.ampol.com.au/business/pricing
+audience: business-product
+pricing_basis: none
+published: false
+delivery:
+  mode: unclear
+plan_count: 0
+plans: []
+note: The only pricing page (https://www.ampol.com.au/business/pricing, HTTP 200) publishes wholesale Terminal Gate Pricing and Fuel Card Pricing for fuel products, not API or developer plans. Ampol publishes no developer API, so there are no API plans to record.
