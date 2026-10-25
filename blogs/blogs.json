@@ -1,0 +1,14 @@
+{
+  "repo": "ampol",
+  "feeds": [
+    {
+      "source": "https://www.ampol.com.au/about-ampol/news-and-media",
+      "feed_url": "https://www.ampol.com.au/about-ampol/news-and-media",
+      "title": "",
+      "saved": 0,
+      "method": "none"
+    }
+  ],
+  "post_count": 0,
+  "fetched": "2026-10-24T12:29:31Z"
+}
